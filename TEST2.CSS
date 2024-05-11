@@ -1,0 +1,288 @@
+*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color:  #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+    flex-basis: 65%;
+}
+
+.context {
+    flex-basis: 30%;
+    padding-left: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.context {
+    margin-left: 20px;
+    flex-basis: 30%;
+    padding-left: 20px;
+    border: 1px solid #333; /* Ajout de bordures */
+    border-radius: 5px; /* Ajout de bord arrondi */
+    padding: 15px; /* Ajout de marge intérieure */
+    margin-top: 20px; /* Ajout de marge en haut */
+    text-align: left;
+}
+
+
+.context h3 {
+    color: #333; /* Changement de couleur du titre*/
+}
+
+.context p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.article {
+    flex-basis: 65%;
+}
+
+.context {
+    flex-basis: 30%;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.journal-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.journal-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.journal-logo img {
+    width: 200px; /* Ajustez la taille de votre logo selon vos besoins */
+    margin-left: 100px; /* Ajustez la marge entre le texte et le logo selon vos besoins */
+    margin-right: 100px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.article {
+    flex-basis: 65%;
+}
+
+.context {
+    flex-basis: 30%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contexter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contexter img {
+    margin-right: 10px;
+}
+
+.context h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.context {
+    flex-basis: 30%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.article {
+    flex-basis: 65%;
+}
+
+.contexter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.context-article {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.context-article p {
+    margin-bottom: 0; /* Pour supprimer l'espacement en bas du paragraphe */
+}
+
+
+
+
+.image {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+
+.image p {
+    font-size: 10px;
+    margin-right: 100 px;
+    margin-left: 20px;
+}
+
+.image img {
+    width: 200px; /* Ajustez la taille de votre logo selon vos besoins */
+    margin-left: 20px; /* Ajustez la marge entre le texte et le logo selon vos besoins */
+    margin-right: 20px;
+
+}
+
+.imaga {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.imaga img {
+    margin-left: 10px; /* Ajustez la marge entre le texte et le logo selon vos besoins */
+    margin-right: 20px;
+}
+
+
+.imaga p {
+    font-size: 10px;
+    margin-right: 20 px;
+    margin-left: 20px;
+}
+
+.image-align-right {
+    float: right; /* Aligner l'image à droite */
+    width: 250px;
+    height: auto; /* Ajuster la hauteur automatiquement */
+    object-fit: cover; /* Redimensionner l'image pour couvrir toute la zone */}
+.image-align-left {
+    float: left; /* Aligner l'image à droite */
+    width: 250px;
+    height: 4240px; /* Ajuster la hauteur automatiquement */
+    object-fit: cover; /* Redimensionner l'image pour couvrir toute la zone */
+} 
+
+
